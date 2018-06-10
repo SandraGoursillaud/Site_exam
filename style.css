@@ -1,0 +1,132 @@
+
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+/*	position: relative;
+	height : 70px;*/
+}
+
+/*.navbar-brand {
+	position : absolute;
+	left: 10px;
+}
+
+.navbar-collapse {
+	position: absolute;
+	right: 10px;
+}*/
+
+.image_banner {
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: linear-gradient(135deg,
+	                            rgba(0,0,0,0.3) 0%,
+	                            rgba(100,100,100,0.5)50%),
+				url("images/route.jpeg");
+	background-size: cover;
+}
+
+.texte {
+	text-align: center;
+	color: white;
+}
+
+
+h1 {
+	font-size: 70px;
+	font-family: cookie;
+	text-shadow: 4px 4px 3px black; 
+}
+
+h3 {
+	color: #FFD4E2;
+	font-family: calibri;
+	padding-bottom: 20px;
+	text-shadow: 1px 1px 3px black; 
+}
+
+h2 {
+	text-align: center;
+	padding: 20px;
+	font-family: 'Goudy Bookletter 1911', serif; 
+}
+
+h4 {
+	font-family: 'Goudy Bookletter 1911', serif;
+	padding: 10px; 
+}
+
+p {
+	font-family: calibri light;
+	padding: 10px;
+	text-align: justify;
+}
+
+body {
+	background-color: #B5C491;
+}
+
+
+/*CARD*/
+
+.card {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.picture {
+	padding : 10px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+
+
+/*NEWSLETTER*/
+
+
+#mc_embed_signup {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 30px;
+}
+
+#mc_embed_signup p {
+	text-align: center;
+}
+
+.clear {
+	padding: 10px;
+}
+
+
+/*FOOTER*/
+
+#footer {
+	background-color: grey;
+	height : 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#footer a{
+	font-size: 30px;
+	padding: 5px;
+	margin: 5px;
+	color: black;
+}
+
+#footer a:hover{
+	text-decoration: none;
+	color: #B5C491;
+}
+
+.footer-content {
+	padding-right: 40px;
+}
